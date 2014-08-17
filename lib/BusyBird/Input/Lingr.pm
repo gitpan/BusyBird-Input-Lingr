@@ -6,7 +6,7 @@ use Carp;
 use DateTime::Format::ISO8601;
 use BusyBird::DateTime::Format;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 my $PARSER = DateTime::Format::ISO8601->new;
 
